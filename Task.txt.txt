@@ -1,1 +1,2 @@
 This is my Git lab task
+This file is updated for second commit
