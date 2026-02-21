@@ -1,0 +1,11 @@
+#include "LowPower.h" 
+void setup() { 
+pinMode(8, OUTPUT); 
+} 
+void loop() { 
+digitalWrite(8, HIGH); 
+delay(4000); 
+digitalWrite(8, LOW); 
+delay(4000); 
+LowPower.powerDown(SLEEP_4S, ADC_OFF, BOD_OFF); 
+}
